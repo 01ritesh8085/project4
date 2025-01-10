@@ -25,7 +25,7 @@ import com.rays.pro4.Util.ServletUtility;
  * User registration functionality Controller. Performs operation for User
  * Registration
  * 
- * @authorHimanshu Jain
+ * @authorRitesh
  */
 @WebServlet(name = "     ", urlPatterns = { "/UserRegistrationCtl" })
 public class UserRegistrationCtl extends BaseCtl {

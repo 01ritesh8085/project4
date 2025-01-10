@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html> 
 <%@page import="com.rays.pro4.Bean.UserBean"%>
 <%@page import="com.rays.pro4.Bean.RoleBean"%>
@@ -90,6 +90,8 @@
         <a href="<%=ORSView.FACULTY_LIST_CTL %>">Faculty List</b></a> |
         <a href="<%=ORSView.TIMETABLE_CTL %>" >Add TimeTable</b></a> |       
         <a href="<%=ORSView.TIMETABLE_LIST_CTL %>">TimeTable List</b></a> |
+         <a href="<%=ORSView.CART_CTL %>" >Add Cart</b></a> |       
+        <a href="<%=ORSView.CART_LIST_CTL %>">Cart List</b></a> |
         <a target="blank" href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</b></a> |
        <%
      		}

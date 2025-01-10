@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 import com.rays.pro4.Util.ServletUtility;
 
 /**
- * @authorHimanshu Jain
+ * @authorRitesh
  *
  */
 public class ErrorCtl extends BaseCtl {

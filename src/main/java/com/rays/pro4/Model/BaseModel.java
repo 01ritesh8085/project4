@@ -18,7 +18,7 @@ import com.rays.pro4.Util.JDBCDataSource;
 /**
  * The Class BaseModel 
  * 
- * @author Himanshu Jain
+ * @author Ritesh
  *
  */
 public abstract class BaseModel implements  Serializable,DropdownListBean {

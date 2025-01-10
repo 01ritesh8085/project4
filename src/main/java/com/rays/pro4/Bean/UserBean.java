@@ -8,6 +8,10 @@ import java.util.Date;
  * @author hp
  *
  */
+/**
+ * @author Ritesh
+ *
+ */
 public class UserBean extends BaseBean {
 
 	public static final String ACTIVE ="Active";

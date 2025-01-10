@@ -25,7 +25,7 @@ import com.rays.pro4.Util.JDBCDataSource;
 /**
  * JDBC Implementation of UserModel.
  * 
- * @authorHimanshu Jain
+ * @authorRitesh
  *
  */
 
@@ -295,7 +295,7 @@ public class UserModel {
 
 	public List search(UserBean bean, int pageNo, int pageSize) throws ApplicationException {
 		log.debug("Model Search Start");
-		StringBuffer sql = new StringBuffer("SELECT * FROM ST_USER where 1=1");
+		StringBuffer sql = new StringBuffer("SELECT * FROM ST_USER where 1=1"); 
 		if (bean != null) {
 			if (bean.getFirstName() != null && bean.getFirstName().length() > 0) {
 				sql.append(" AND FIRST_NAME like '" + bean.getFirstName() + "%'");

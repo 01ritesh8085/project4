@@ -1,4 +1,4 @@
-package com.rays.pro4.controller;
+ package com.rays.pro4.controller;
 
 import java.io.IOException;
 
@@ -25,7 +25,7 @@ import com.rays.pro4.Util.ServletUtility;
 /**
 * The Class ChangePasswordCtl.
 * 
-* @authorHimanshu Jain
+* @authorRitesh
 */
 @WebServlet(name = "ChangePasswordCtl", urlPatterns = { "/ctl/ChangePasswordCtl" })
 public class ChangePasswordCtl extends BaseCtl{

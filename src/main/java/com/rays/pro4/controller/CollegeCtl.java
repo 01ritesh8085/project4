@@ -1,3 +1,4 @@
+
 package com.rays.pro4.controller;
 
 import java.io.IOException;
@@ -24,7 +25,7 @@ import com.rays.pro4.Util.ServletUtility;
 * College functionality Controller. Performs operation for add, update, delete
 * and get College
 * 
-* @authorHimanshu Jain
+* @authorRitesh
 * 
 */
 

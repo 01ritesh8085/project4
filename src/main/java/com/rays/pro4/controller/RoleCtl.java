@@ -20,7 +20,7 @@ import com.rays.pro4.Util.PropertyReader;
 import com.rays.pro4.Util.ServletUtility;
 
 /**
- *  @authorHimanshu Jain
+ *  @authorRitesh
  *
  */
 @ WebServlet(name="RoleCtl",urlPatterns={"/ctl/RoleCtl"})

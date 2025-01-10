@@ -3,7 +3,7 @@
  * ApplicationException is propogated from Service classes when an business
  * logic exception occurered.
  * 
- * @authorHimanshu Jain
+ * @authorRitesh
  *
  */
 public class ApplicationException extends Exception {

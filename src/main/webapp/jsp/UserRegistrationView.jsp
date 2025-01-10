@@ -1,4 +1,4 @@
-  <%@page import="com.rays.pro4.controller.UserRegistrationCtl"%>
+   <%@page import="com.rays.pro4.controller.UserRegistrationCtl"%>
 <%@page import="java.util.HashMap"%>
 <%@page import="com.rays.pro4.Util.HTMLUtility"%>
 <%@page import="com.rays.pro4.Util.ServletUtility"%>
@@ -25,7 +25,7 @@
 		$("#udate").datepicker({
 			changeMonth : true,
 			changeYear : true,
-			yearRange : '1980:2002',
+			yearRange : '1980:2007',
 		//  mindefaultDate : "01-01-1962"
 		});
 	});
@@ -119,7 +119,7 @@
 							String htmlList = HTMLUtility.getList("gender", bean.getGender(), map);
 						%> <%=htmlList%>
 					</td>
-					<td style="position: fixed"><font color="red"><%=ServletUtility.getErrorMessage("gender", request)%></font></td>
+					<td style="position: fixed" ><font color="red"><%=ServletUtility.getErrorMessage("gender", request)%></font></td>
 				</tr>
 
 				<tr>
